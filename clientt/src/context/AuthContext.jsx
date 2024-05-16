@@ -5,7 +5,6 @@ import { baseUrl, postRequest } from "../utils/services";
 export const AuthContext = createContext();
 
 export const AuthContextProvider = ({children}) =>{
-    debugger
     const [user, setUser] = useState (null);
     const [registerError, setRegisterError] = useState(null);
     const [isRegisterLoading, setIsRegisterLoading] = useState(false);

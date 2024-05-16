@@ -14,12 +14,12 @@ function App() {
     <>
     <NavBar />
     <Container>
-    {/* <Routes>
+    { <Routes>
       <Route path="/" element ={user ?<Chat /> : <Login/>} />
       <Route path="/login" element ={user ?<Chat /> : <Login/>} />
       <Route path="/register" element ={user ?<Chat /> : <Register/>} />
       <Route path="*" element ={<Navigate to="/"/>} />
-    </Routes> */}
+    </Routes> }
     </Container>
     </>
   );
